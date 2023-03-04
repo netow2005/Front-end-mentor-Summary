@@ -1,0 +1,181 @@
+ * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+ }
+
+
+ @font-face {
+     font-family: font;
+     src: url(./results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+ }
+
+ .tudo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     font-family: font;
+     background-color: #e6ecfd;
+ }
+
+ .parte-azul {
+     display: flex;
+     flex-direction: column;
+     background-color: blueviolet;
+     text-align: center;
+     justify-content: center;
+     height: 420px;
+     width: 320px;
+     border-radius: 2em;
+     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+     z-index: 1;
+
+ }
+
+ .texto-acima {
+     margin-bottom: 1em;
+     color: #cac4ff;
+     font-weight: bold;
+     font-size: 1.3em;
+ }
+
+ .bola {
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     justify-content: center;
+     width: 10em;
+     height: 10em;
+     border-radius: 100%;
+     margin: 15px auto;
+     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)) transparent;
+ }
+
+ .texto-bola1 {
+     font-size: 4em;
+     font-weight: bold;
+     color: white;
+ }
+
+ .texto-bola2 {
+     color: #877af6;
+     font-weight: bold;
+ }
+
+
+ h1 {
+     color: white;
+     margin: 0.5em 0;
+ }
+
+
+ .texto-explicacao {
+     display: flex;
+     flex-wrap: wrap;
+     font-size: 18px;
+     width: 80%;
+     justify-content: center;
+     margin: 5px auto;
+     font-size: 1em;
+     color: #bcbfff;
+ }
+
+
+
+ .parte-branca {
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     padding-left: 4em;
+     margin: -3.5em;
+     justify-content: center;
+     height: 420px;
+     width: 320px;
+     border-radius: 2em;
+     z-index: 0;
+
+ }
+
+ h2 {
+     margin: 30px 28px 1em;
+ }
+
+ .quadrinho {
+     display: flex;
+     flex-direction: row;
+     margin: 0 auto 18px;
+     justify-content: space-between;
+     background-color: lightgray;
+     padding: 0.8em;
+     border-radius: 0.6em;
+     width: 77%;
+
+
+ }
+
+ .numero-negrito {
+     font-weight: bold;
+     margin: 0 0 0;
+     color: #3c3f50;
+
+ }
+
+ .numero-apagado {
+     color: #9fa7b2;
+ }
+
+ .nomes {
+     margin-right: auto;
+
+ }
+
+ .icone {
+     margin-right: 10px;
+ }
+
+
+ .reacao {
+     color: hsl(0, 100%, 67%);
+     background-color: #fff6f5;
+
+
+ }
+
+ .memoria {
+     color: hsl(39, 100%, 56%);
+     background-color: #fffbf2;
+ }
+
+ .verbal {
+     color: hsl(166, 100%, 37%);
+     background-color: #f2fbfa;
+ }
+
+ .visual {
+     color: hsl(234, 85%, 45%);
+     background-color: #f3f3fd;
+
+ }
+
+
+ button {
+     border: none;
+     border-radius: 2em;
+     height: 3.2em;
+     width: 18.5em;
+     margin-left: 2.7em;
+     margin-bottom: 2em;
+     background-color: #303b59;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ button:hover {
+     transform: scale(1.05)  ;
+     border: none;
+     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+     
+
+ }
